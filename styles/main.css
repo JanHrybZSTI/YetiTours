@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body,
@@ -12,6 +14,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
+  background: white;
 }
 
 .container {
@@ -20,5 +23,53 @@ body {
 
 .footer {
   flex-shrink: 0;
+}
+
+.nav {
+  height: 90px;
+  padding: 0.4em;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 0.2fr 2fr 2fr 0.2fr;
+  grid-template-rows: auto;
+}
+
+.nav__boxForLogo {
+  grid-column: 2/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__linkForLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__logo {
+  width: 120px;
+}
+
+.nav__menu {
+  grid-column: 3/4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav__list {
+  margin: 1.2em;
+}
+
+.nav__link {
+  text-transform: capitalize;
+  font-size: 1.1em;
+}
+
+.nav__link, .nav__linkForLogo {
+  text-decoration: none;
+  color: black;
 }
 /*# sourceMappingURL=main.css.map */
