@@ -18,6 +18,9 @@ $main-color: #5c8d89;
   box-sizing: border-box;
   font-family: $main-font;
 }
+html {
+  scroll-behavior: smooth;
+}
 body,
 html {
   height: 100%;
@@ -42,6 +45,7 @@ body {
   grid-template-columns: 0.2fr 2fr 2fr 0.2fr;
   grid-template-rows: auto;
   transition: background-color 0.6s;
+  /*logo*/
   &__boxForLogo {
     grid-column: 2/3;
     display: flex;
@@ -52,10 +56,40 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    user-select: none;
   }
   &__logo {
     width: 120px;
   }
+  /*hamburger*/
+  &__boxForHamburger {
+    /*display: flex;*/
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  &__checkboxForHamburger {
+    display: none;
+  }
+  &__hamburger {
+    width: 30px;
+    height: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+  }
+  &__hamburger:hover {
+    cursor: pointer;
+  }
+  &__hamburgerItem {
+    transition: transform 0.4s;
+    width: 100%;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 4px;
+  }
+  /*menu*/
   &__menu {
     grid-column: 3/4;
     display: flex;
