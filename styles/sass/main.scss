@@ -46,13 +46,13 @@ body {
   grid-template-rows: auto;
   transition: background-color 0.6s;
   /*logo*/
-  &__boxForLogo {
+  &__logo-box {
     grid-column: 2/3;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  &__linkForLogo {
+  &__logo-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,13 +62,13 @@ body {
     width: 120px;
   }
   /*hamburger*/
-  &__boxForHamburger {
+  &__hamburger-box {
     /*display: flex;*/
     display: none;
     justify-content: center;
     align-items: center;
   }
-  &__checkboxForHamburger {
+  &__hamburger-checkbox {
     display: none;
   }
   &__hamburger {
@@ -82,34 +82,75 @@ body {
   &__hamburger:hover {
     cursor: pointer;
   }
-  &__hamburgerItem {
+  &__hamburger-item {
     transition: transform 0.4s;
     width: 100%;
     height: 4px;
     background-color: rgb(0, 0, 0);
     border-radius: 4px;
   }
+
+  /*hamburger to X look*/
+  &__hamburger-X {
+    align-items: center;
+    align-content: stretch;
+    position: relative;
+  }
+  &__hamburger-item-X {
+    position: absolute;
+  }
+  &__hamburger-item--first-X {
+    transform: rotate(45deg);
+  }
+  &__hamburger-item--second-X {
+    display: none;
+  }
+  &__hamburger-item--third-X {
+    transform: rotate(-45deg);
+  }
+
+  /*hamburger to default look*/
+  &__hamburger-default {
+    align-items: stretch;
+    align-content: space-between;
+    position: static;
+  }
+  &__hamburger-item-default {
+    position: static;
+  }
+  &__hamburger-item--first-default {
+    transform: rotate(180deg);
+    transform: none;
+  }
+  &__hamburger-item--second-default {
+    display: block;
+  }
+  &__hamburger-item--third-default {
+    transform: rotate(180deg);
+    transform: none;
+  }
   /*menu*/
   &__menu {
     grid-column: 3/4;
     display: flex;
+    /*display: none;*/
     justify-content: center;
     align-items: center;
     list-style: none;
   }
-  &__list {
+  &__menu-list {
     margin: 1.2em;
     transition: all 0.45s;
   }
-  &__list:hover {
+  &__menu-list:hover {
     transform: scale(1.1);
   }
-  &__link {
+  &__menu-link {
     text-transform: capitalize;
     font-size: 1.1em;
   }
-  &__link,
-  &__linkForLogo {
+  &__menu-link,
+  &__logo-link {
     text-decoration: none;
     color: rgb(0, 0, 0);
   }
@@ -128,7 +169,7 @@ body {
   }
   /*&__header {
   }*/
-  &__title {
+  &__banner-title {
     text-align: center;
     font-size: 2.5em;
     text-shadow: -0.0075em 0.0075em 0 mix(#fff, rgb(0, 0, 0), 94%),
