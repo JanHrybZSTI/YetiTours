@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,6BAA6B;AAG1B,AAAD,eAAY,CAAC;EACX,WAAW,EAAE,OAAO;EACpB,aAAa,EAAE,aAAa;EAC5B,QAAQ,EAAE,MAAM;CACjB;;AACA,AAAD,oBAAiB,CAAC;EAChB,QAAQ,EAAE,MAAM;CACjB;;AACA,AAAD,2BAAwB,CAAC;EACvB,SAAS,EAAE,cAAc;EACzB,SAAS,EAAE,IAAI;CAChB;;AACA,AAAD,4BAAyB,CAAC;EACxB,OAAO,EAAE,KAAK;CACf;;AACA,AAAD,2BAAwB,CAAC;EACvB,SAAS,EAAE,cAAc;EACzB,SAAS,EAAE,IAAI;CAChB;;AAGH;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAiTE",
+    "sources": [
+        "sass/hamburgerToDefalult.scss"
+    ],
+    "names": [],
+    "file": "hamburgerToDefalult.css"
+}
