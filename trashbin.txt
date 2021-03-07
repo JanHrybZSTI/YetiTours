@@ -1,0 +1,147 @@
+<!--
+        <h3 class="main__title">
+          We are an excursion company operating in area of the Himalayas
+        </h3>
+        <article class="main__article">
+          <div class="main__article-image main__article-image--1"></div>
+          <p class="main__article-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. I ste quas
+            odit, voluptatem cupiditate ab doloribus! Quibusdam recusandae nemo
+            placeat, no bis delectus provident! Rerum quia voluptatum, amet
+            alias deserunt explicabo excepturi. Lor em ipsum dolor sit, amet
+            consectetur adipisicing elit. Commodi eveniet reprehenderit ipsa, s
+            oluta maiores quas velit voluptates sunt dolorum sint officia
+            aliquid amet odio fugit dignissimos de serunt tenetur distinctio
+            suscipit! Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Nihil perferendis deleniti incidunt. Repudiandae illo nisi
+            voluptate, ducimus aut accusamus illum offici is architecto eos
+            voluptas animi sunt quae cum et fugiat. Lorem ipsum dolor sit amet,
+            consectetur adipis icing elit. Obcaecati impedit nemo dignissimos,
+            quia, in accusantium voluptate voluptas vel deserunt mo lestias quas
+            quibusdam ad maiores! Facere illo vero animi voluptatem nam.
+          </p>
+        </article>
+        <article class="main__article">
+          <div class="main__article-image main__article-image--2"></div>
+          <p class="main__article-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. I ste quas
+            odit, voluptatem cupiditate ab doloribus! Quibusdam recusandae nemo
+            placeat, no bis delectus provident! Rerum quia voluptatum, amet
+            alias deserunt explicabo excepturi. Lor em ipsum dolor sit, amet
+            consectetur adipisicing elit. Commodi eveniet reprehenderit ipsa, s
+            oluta maiores quas velit voluptates sunt dolorum sint officia
+            aliquid amet odio fugit dignissimos de serunt tenetur distinctio
+            suscipit! Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Nihil perferendis deleniti incidunt. Repudiandae illo nisi
+            voluptate, ducimus aut accusamus illum offici is architecto eos
+            voluptas animi sunt quae cum et fugiat. Lorem ipsum dolor sit amet,
+            consectetur adipis icing elit. Obcaecati impedit nemo dignissimos,
+            quia, in accusantium voluptate voluptas vel deserunt mo lestias quas
+            quibusdam ad maiores! Facere illo vero animi voluptatem nam.
+          </p>
+        </article>
+        <article class="main__article">
+          <div class="main__article-image main__article-image--3"></div>
+          <p class="main__article-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. I ste quas
+            odit, voluptatem cupiditate ab doloribus! Quibusdam recusandae nemo
+            placeat, no bis delectus provident! Rerum quia voluptatum, amet
+            alias deserunt explicabo excepturi. Lor em ipsum dolor sit, amet
+            consectetur adipisicing elit. Commodi eveniet reprehenderit ipsa, s
+            oluta maiores quas velit voluptates sunt dolorum sint officia
+            aliquid amet odio fugit dignissimos de serunt tenetur distinctio
+            suscipit! Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Nihil perferendis deleniti incidunt. Repudiandae illo nisi
+            voluptate, ducimus aut accusamus illum offici is architecto eos
+            voluptas animi sunt quae cum et fugiat. Lorem ipsum dolor sit amet,
+            consectetur adipis icing elit. Obcaecati impedit nemo dignissimos,
+            quia, in accusantium voluptate voluptas vel deserunt mo lestias quas
+            quibusdam ad maiores! Facere illo vero animi voluptatem nam.
+          </p>
+        </article>
+        <h3 class="main__offer-title">Look at our offer</h3>
+        <section class="main__offer-box">
+          <div class="main__offer main__offer--1">
+            <p class="main__offer-description">mountain</p>
+          </div>
+          <div class="main__offer main__offer--2">
+            <p class="main__offer-description">mountain</p>
+          </div>
+          <div class="main__offer main__offer--3">
+            <p class="main__offer-description">mountain</p>
+          </div>
+          <div class="main__offer main__offer--4">
+            <p class="main__offer-description">mountain</p>
+          </div>
+          <div class="main__offer main__offer--5">
+            <p class="main__offer-description">mountain</p>
+          </div>
+          <div class="main__offer main__offer--6">
+            <p class="main__offer-description">mountain</p>
+          </div>
+        </section>
+      </main>
+    </div>
+    <footer class="footer">
+      <section class="footer__concact">
+        <h2 class="concact__header">Concact</h2>
+        <section class="concact__box">
+          <i class="fas fa-mobile-alt footer-icon"></i>
+          <a href="#" class="box__reference">+48 211521372</a>
+        </section>
+        <section class="concact__box">
+          <i class="far fa-envelope footer-icon"></i>
+          <a href="#" class="box__reference">gaming@gmail.com</a>
+        </section>
+        <section class="concact__box">
+          <i class="fas fa-map-marker-alt footer-icon"></i>
+          <a href="#" class="box__reference">Chorzowska 5, 44-100 Gliwice</a>
+        </section>
+      </section>
+      <section class="footer__help">
+        <h2 class="help__header">Help</h2>
+        <a href="#" class="help__reference">Regulations</a>
+        <a href="#" class="help__reference">Privacy</a>
+        <a href="#" class="help__reference">FAQ</a>
+        <a href="#" class="help__reference">Delivery</a>
+        <a href="#" class="help__reference">Payments</a>
+        <a href="#" class="help__reference">Help</a>
+        <a href="#" class="help__reference">Concact</a>
+      </section>
+      <section class="footer__about">
+        <h2 class="about__header">About</h2>
+        <p class="about__content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, aut
+          voluptas! Iusto autem minima totam sit dolorem explicabo excepturi
+          recusandae vel, blanditiis quasi vero cumque fuga iste perspiciatis,
+          aspernatur voluptate?
+        </p>
+        <section class="about__box">
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-twitter-square"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-youtube-square"></i>
+        </section>
+      </section>
+    </footer>
+    -->
+       <div class="main__offer-proposition-images-box">
+              <figure class="main__offer-proposition-image main__offer-proposition-image--1">
+                <p class="main__offer-proposition-description">K2</p>
+              </figure>
+              <figure class="main__offer-proposition-image main__offer-proposition-image--2">
+                <p class="main__offer-proposition-description">Lake</p>
+              </figure>
+              <figure class="main__offer-proposition-image main__offer-proposition-image--3">
+                <p class="main__offer-proposition-description">Rysy</p>
+              </figure>
+              <figure class="main__offer-proposition-image main__offer-proposition-image--4">
+                <p class="main__offer-proposition-description">Gerlach</p>
+              </figure>
+              <figure class="main__offer-proposition-image main__offer-proposition-image--5">
+                <p class="main__offer-proposition-description">Czarny staw</p>
+              </figure>
+              <figure class="main__offer-proposition-image main__offer-proposition-image--6">
+                <p class="main__offer-proposition-description">Everest</p>
+              </figure>
+            </div>

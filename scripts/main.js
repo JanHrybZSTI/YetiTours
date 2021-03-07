@@ -1,3 +1,7 @@
+//AOS libary
+AOS.init({
+  once: true,
+});
 function hamburger() {
   //variables
   let checkBox = document.querySelector(".nav__hamburger-checkbox");
