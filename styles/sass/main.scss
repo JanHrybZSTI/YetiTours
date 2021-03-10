@@ -20,12 +20,12 @@ $main-color: #5c8d89;
   box-sizing: border-box;
   font-family: $main-font;
 }
+html,
+body {
+  height: 100%;
+}
 html {
   scroll-behavior: smooth;
-}
-body,
-html {
-  height: 100%;
 }
 body {
   display: flex;
@@ -37,9 +37,9 @@ body {
 }
 /*navbar*/
 .nav {
-  z-index: 100;
   background-color: $color-white;
-  position: fixed;
+  z-index: 1;
+  position: sticky;
   top: 0;
   padding: 0.4em;
   width: 100%;
