@@ -33,10 +33,12 @@
 
 .offer__cart-title {
   margin-top: 0.2em;
+  text-align: center;
 }
 
-.offer__cart-title, .offer__cart-description {
+.offer__cart-description {
   text-align: center;
+  color: dimgray;
 }
 
 .offer__cart:hover {

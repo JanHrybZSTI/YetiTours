@@ -27,10 +27,11 @@
   }
   &__cart-title {
     margin-top: 0.2em;
+    text-align: center;
   }
-  &__cart-title,
   &__cart-description {
     text-align: center;
+    color: rgb(105, 105, 105);
   }
   &__cart:hover {
     background-size: 115%;
